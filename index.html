@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart ERP - Project Operations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="logo">SmartERP</span>
+      <span class="tagline">Project Operations Console</span>
+    </div>
+    <nav class="app-nav">
+      <a href="#planning">Project Planning</a>
+      <a href="#assignments">Task Assignments</a>
+      <a href="#progress">Progress Tracking</a>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <section id="planning" class="panel">
+      <div class="panel-header">
+        <h2>Project Planning</h2>
+        <span class="status-pill">Q3 Roadmap</span>
+      </div>
+      <div class="panel-body">
+        <article class="card">
+          <h3>Milestone Blueprint</h3>
+          <ul>
+            <li>Define scope, budget, and delivery timelines</li>
+            <li>Risk register with mitigation owners</li>
+            <li>Dependencies mapped across teams</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Resource Forecast</h3>
+          <ul>
+            <li>Capacity by team and specialty</li>
+            <li>Hiring &amp; contractor needs</li>
+            <li>Tooling and infrastructure allocation</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Approval Workflow</h3>
+          <ul>
+            <li>Executive sign-off gate</li>
+            <li>Compliance and finance checks</li>
+            <li>Stakeholder communication plan</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="assignments" class="panel">
+      <div class="panel-header">
+        <h2>Task Assignments</h2>
+        <span class="status-pill warning">14 open</span>
+      </div>
+      <div class="panel-body grid">
+        <article class="card">
+          <h3>Backend API Build</h3>
+          <p>Owner: A. Rivera</p>
+          <p>Priority: High</p>
+          <div class="meta">
+            <span>Due: Oct 10</span>
+            <span>Dependencies: Data model</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Client Portal UI</h3>
+          <p>Owner: D. Chen</p>
+          <p>Priority: Medium</p>
+          <div class="meta">
+            <span>Due: Oct 18</span>
+            <span>Dependencies: Design system</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>QA Automation</h3>
+          <p>Owner: S. Patel</p>
+          <p>Priority: Medium</p>
+          <div class="meta">
+            <span>Due: Oct 22</span>
+            <span>Dependencies: API endpoints</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="progress" class="panel">
+      <div class="panel-header">
+        <h2>Progress Tracking</h2>
+        <span class="status-pill success">68% On Track</span>
+      </div>
+      <div class="panel-body">
+        <div class="progress-card">
+          <div>
+            <h3>Release Readiness</h3>
+            <p>Overall project completion and readiness to launch.</p>
+          </div>
+          <div class="progress-meter">
+            <span class="bar" style="width: 68%;"></span>
+          </div>
+        </div>
+        <div class="progress-grid">
+          <div class="progress-item">
+            <h4>Development</h4>
+            <div class="meter"><span style="width: 75%;"></span></div>
+            <p>Feature build is tracking above plan.</p>
+          </div>
+          <div class="progress-item">
+            <h4>QA &amp; Testing</h4>
+            <div class="meter"><span style="width: 58%;"></span></div>
+            <p>Regression suite in progress.</p>
+          </div>
+          <div class="progress-item">
+            <h4>Deployment</h4>
+            <div class="meter"><span style="width: 42%;"></span></div>
+            <p>Infrastructure and monitoring setup.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Smart ERP • Unified planning, assignments, and tracking</p>
+  </footer>
+</body>
+</html>
